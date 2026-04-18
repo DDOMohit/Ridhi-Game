@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ridhi-bg: #0f172a;
+  --color-ridhi-primary: #3b82f6;
+  --color-ridhi-secondary: #8b5cf6;
+  --color-ridhi-accent: #f59e0b;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900;
+  }
+}
+
+.cell-selected {
+  @apply bg-blue-500 text-white shadow-inner;
+}
+
+.cell-completed {
+  @apply bg-purple-500 text-white shadow-inner;
+}
+
+.ridhi-letter {
+  @apply text-gray-300 font-bold transition-colors duration-500;
+}
+
+.ridhi-letter-active {
+  @apply text-blue-600 drop-shadow-md;
+}
