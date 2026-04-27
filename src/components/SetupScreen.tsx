@@ -19,7 +19,7 @@ export function SetupScreen() {
       <div className="w-full max-w-md bg-white dark:bg-slate-800 rounded-2xl shadow-xl p-8 space-y-8">
         <div className="text-center">
           <h1 className="text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 mb-2 tracking-tight">
-            RIDHI
+            DDO Bingo
           </h1>
           <p className="text-slate-500 dark:text-slate-400">The Ultimate Number Strategy Game</p>
         </div>

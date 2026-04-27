@@ -12,8 +12,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.svg'],
       manifest: {
-        name: 'RIDHI Game',
-        short_name: 'RIDHI',
+        name: 'DDO Bingo',
+        short_name: 'DDO Bingo',
         description: 'A strategy-based number game played on a 5x5 grid.',
         theme_color: '#ffffff',
         background_color: '#ffffff',

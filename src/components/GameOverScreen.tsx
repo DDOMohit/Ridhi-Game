@@ -31,9 +31,9 @@ export function GameOverScreen() {
           
           <div className="text-xl font-medium text-slate-600 dark:text-slate-300 mb-8 max-w-[280px]">
             {isDraw ? (
-              <p>Multiple players completed RIDHI at the same time: <br/><span className="font-bold text-blue-600 dark:text-blue-400">{winners.map(w => w.name).join(', ')}</span></p>
+              <p>Multiple players completed DDO Bingo at the same time: <br/><span className="font-bold text-blue-600 dark:text-blue-400">{winners.map(w => w.name).join(', ')}</span></p>
             ) : (
-              <p><span className="font-bold text-2xl text-blue-600 dark:text-blue-400">{winners[0]?.name}</span> has completed RIDHI!</p>
+              <p><span className="font-bold text-2xl text-blue-600 dark:text-blue-400">{winners[0]?.name}</span> has completed DDO Bingo!</p>
             )}
           </div>
 

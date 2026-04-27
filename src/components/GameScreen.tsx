@@ -48,8 +48,8 @@ export function GameScreen() {
     );
   }
 
-  // RIDHI Letters component
-  const letters = ['R', 'I', 'D', 'H', 'I'];
+  // BINGO Letters component
+  const letters = ['B', 'I', 'N', 'G', 'O'];
   
   return (
     <div className="flex flex-col items-center min-h-[80vh] p-2 sm:p-4 max-w-3xl mx-auto w-full">
@@ -63,7 +63,7 @@ export function GameScreen() {
           <p className="text-sm text-slate-500 dark:text-slate-400">Select a number to call</p>
         </div>
         
-        {/* RIDHI PROGRESS */}
+        {/* BINGO PROGRESS */}
         <div className="flex space-x-1 sm:space-x-2 bg-white dark:bg-slate-800 p-2 sm:p-3 rounded-xl shadow-sm border border-slate-200 dark:border-slate-700">
           {letters.map((char, i) => (
             <div

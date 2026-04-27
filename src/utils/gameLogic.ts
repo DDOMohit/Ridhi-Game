@@ -35,8 +35,8 @@ export function countCompletedLines(marked: boolean[]): number {
   return count;
 }
 
-export function getRidhiProgress(linesCompleted: number): string[] {
-  const target = ['R', 'I', 'D', 'H', 'I'];
+export function getBingoProgress(linesCompleted: number): string[] {
+  const target = ['B', 'I', 'N', 'G', 'O'];
   return target.map((char, index) => ({
     char,
     active: index < linesCompleted
